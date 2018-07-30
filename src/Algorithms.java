@@ -10,10 +10,15 @@ public class Algorithms {
 		    map.put("key3", "value3");
 		    
 		getValue gv = new getValue();
-		String value = null;
-		value =gv.getValue(map,"key1");
+	
+		String value =gv.getValue(map,"key1");
 		
 		System.out.println(value);
+		
+		getValue2 gv2 = new getValue2();
+		String value2 =gv2.getValue(map,"key4");
+		System.out.println(value2);
+		
 	}
 
 
