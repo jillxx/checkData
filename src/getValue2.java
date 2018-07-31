@@ -15,12 +15,11 @@ public class getValue2 {
 
 	public String getValue(Map metaData, String key) {
 		String value = null;
-		
-		if(metaData.containsKey(key)) {
+		if (metaData.containsKey(key)) { 
 			value = (String) metaData.get(key);
 		}
-
+	
 		return value;
 	}
-	
+
 }

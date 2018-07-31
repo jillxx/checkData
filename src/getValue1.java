@@ -1,13 +1,7 @@
 import java.util.Iterator;
 import java.util.Map;
 
-
-/**
- * @author Jill Xu
- *
- */
-public class getValue {
-
+public class getValue1 {
 	/**
 	 * This method returns the value associated to a key from a product metaData
 	 * map.
@@ -30,7 +24,7 @@ public class getValue {
 			if(nextKey.equals(key)) {
 				String nextValue = (String) metaData.get(nextKey);
 				value = nextValue;
-	
+				break;
 			}
 		}
 		
